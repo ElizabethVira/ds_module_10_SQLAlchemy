@@ -5,7 +5,7 @@ Objective
 ----
 This project was done with the intention of designing queries from a SQLite file with tables that contain data from CSV files, that were imported into a Jupyter Notebook and Virtual Studio Code, to perform data analysis and data exploration, based on the following description:
 
-![alt text](surf.PNG)
+![alt text](./Images/surf.PNG)
 
 Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii. To help with your trip planning, you decide to do a climate analysis about the area. Following sections outline the steps needs to take to accomplish this task.
 
