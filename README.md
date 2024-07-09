@@ -23,11 +23,11 @@ Using Python and SQLAlchemy to do a basic climate analysis and data exploration 
 5. Sort the DataFrame values by "date".
 6. Plot the results by using the DataFrame plot method:
 
-![alt text](bar_graph-1-1.PNG)
+![alt text](./Images/bar_graph-1.PNG)
 
 7. Use Pandas to print the summary statistics for the precipitation data:
 
-![alt text](summary_statistics-1.PNG)
+![alt text](./Images/summary_statistics-1.PNG)
 
 Station Analysis
 ---
@@ -36,7 +36,7 @@ Station Analysis
 3. Design a query that calculates the lowest, highest, and average temperatures that filters on the most-active station id found in the previous query.
 4. Design a query to get the previous 12 months of temperature observation (TOBS) data, for the station with greatest number of observations (check the previous step), then plot the results as a histagram:
 
-![alt text](histagram.png)
+![alt text](./Images/histagram.png)
 
 Part 2
 ===
@@ -64,4 +64,4 @@ Design a Flask API based on the queries previous developed. Use Flask to create 
     - For a specified start, calculate TMIN, TAVG, and TMAX for all the dates greater than or equal to the start date.
     - For a specified start date and end date, calculate TMIN, TAVG, and TMAX for the dates from the start date to the end date, inclusive.
 
-![alt text](flask_running.PNG)
+![alt text](./Images/flask_running.PNG)
